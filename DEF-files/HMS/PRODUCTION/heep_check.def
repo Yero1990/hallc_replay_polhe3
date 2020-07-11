@@ -1,0 +1,36 @@
+#****************************
+#H(e,e'p) Check Definitions *
+#****************************
+
+#BCM CUrrent Module                                                                                                     
+block H.bcm*                                                                         
+block P.bcm*
+
+#Kinematics
+block H.kin.*       
+
+#Focal Plane/Target Variables
+block H.dc.*fp*
+block H.gtr.*
+block H.react.*
+
+
+#Calibration checks 
+#block H.dc.*wirenum*
+#block H.dc.*time* 
+#block H.dc.*dist*
+#block H.dc.*residual*  
+#block H.dc.*nhit* 
+#block H.dc.*ntrack* 
+
+block H.hod.beta*
+block H.hod.*start*
+block H.cer.npeSum*
+block H.cal.etot*
+block H.cal.etrack*
+block H.cal.*track*
+block H.hod.*Track*
+
+#Rastered Beam                                                                                         
+block H.rb.*                  
+         
